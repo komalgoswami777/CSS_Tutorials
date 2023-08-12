@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Types Of Css</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background-color: #24252A;
+    }
+    /* Demo of internal css. It is written inside  script tag in head section .*/
+    p{
+        color: papayawhip;
+    }
+</style>
+</head>
+<body>
+     <!-- Demo of inline css. It is written with the tag using script attribute .  -->
+     <!--Priority: inline >> internal >> external  --><br>
+    <p style="color: palevioletred;font-size: 40px;text-align: center;">There are three types of css INLINE,INTERNAL and EXTERNAL !!</p><hr><br>
+    <p>
+        Priorities of CSS: Inline CSS has the highest priority, then comes Internal/Embedded followed by External CSS which has the least priority. Multiple style sheets can be defined on one page. For an HTML tag, styles can be defined in multiple style types and follow the below order.<br><br>
+
+As Inline has the highest priority, any styles that are defined in the internal and external style sheets are overridden by Inline styles.
+Internal or Embedded stands second in the priority list and overrides the styles in the external style sheet.<br><br>
+External style sheets have the least priority. If there are no styles defined either in inline or internal style sheet then external style sheet rules are applied for the HTML tags.
+    </p>
+    
+</body>
+</html>
