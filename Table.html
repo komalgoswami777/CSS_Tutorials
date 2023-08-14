@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            background-color: #24252A;
+            color: white;
+            text-align: center;
+        }
+        table{
+            width: 50%;
+        }
+        table,td{
+            padding: 12px;
+            border-collapse: collapse;
+        }
+        /* tr:hover {background-color: coral;} */
+        /* tr:nth-child(even) {background-color: #f2f2f2;} */
+        th{
+            padding: 16px;
+            background-color: #04AA6D;
+            color: black;
+        }
+        </style>
+</head>
+<body>
+    <center>
+    <div style="overflow-x: auto;">
+    <table border="1">
+        <tr>
+        <th>Name Of Shiva</th>
+        <th>Meaning</th>
+        <th>Mantra</th>
+        </tr>
+        <tr>
+              <td>Bholenath</td>
+              <td>The simple one</td>
+              <td rowspan="2">Namah Shivay</td>
+        </tr>
+        <tr>
+              <td>Adiguru</td>
+              <td>The first Guru</td>
+        </tr>
+        <tr>
+              <td>Adinath</td>
+              <td>The first Lord</td>
+              <td rowspan="2">Har Har  Mahadev</td>
+        </tr>
+        <tr>
+              <td>Adiyogi</td>
+              <td>The first Yogi</td>
+        </tr>
+        <tr>
+              <td colspan="3">Must Visit</td>
+        </tr>
+  </table></div></center>
+    
+</body>
+</html>
